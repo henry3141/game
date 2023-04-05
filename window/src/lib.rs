@@ -229,6 +229,7 @@ impl Window {
         frame[index] = r;
         frame[index + 1] = g;
         frame[index + 2] = b;
+        frame[index + 3] = 255;
     }
 }
 
